@@ -14,7 +14,7 @@ var app = express();
 //Connect to local MongoDB
 var db = mongoose.connection;
 db.on('error', console.error);
-mongoose.connect('mongodb://localhost/GDG');
+mongoose.connect('mongodb://dapperdingo:dapperpw@ds041032.mongolab.com:41032/dapper-dingosdb');
 
 //MongoDB Schemas
 var chatMessage = new mongoose.Schema({
