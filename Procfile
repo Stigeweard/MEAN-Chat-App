@@ -1,0 +1,1 @@
+web: node meanDemo/app.js
